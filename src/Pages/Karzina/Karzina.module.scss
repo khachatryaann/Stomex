@@ -1,0 +1,237 @@
+.container{
+    width: 95%;
+    margin: auto;
+}
+.sectionOne{
+margin-top: 110px;
+margin-bottom: 60px;
+}
+.shoping{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.basketImg{
+    width: 220px;
+    height: 220px;
+    border: 1px solid;
+    border-radius: 4px ;
+    border-color: rgba(196, 196, 196, 1);
+}
+.soloDiv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(196, 196, 196, 1) ;
+    padding-bottom: 20px;
+    gap: 70px;
+}
+.basketTitle{
+    color: rgba(102, 102, 102, 1);
+    max-width: 320px;
+    font-size: 20px;
+}
+.basketPrice{
+    color: rgba(102, 102, 102, 1);
+    font-size: 20px;
+}
+.delete{
+    cursor: pointer;
+}
+.cardsList{
+    max-height: 750px;
+    overflow: auto;
+    scrollbar-width: none;       
+    
+}
+.order{
+    width: 500px;
+    height: 900px;
+    background-color: rgba(8, 174, 226, 0.13);
+}
+.yourOrder{
+    font-size: 37px;
+    color: rgba(102, 102, 102, 1);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.orderInfo{
+    font-size: 26px;
+    color: rgba(102, 102, 102, 1);
+}
+.orderFinish{
+    color: rgba(102, 102, 102, 1);
+    font-size: 37px;
+}
+.line{
+    border: 1px solid rgba(8, 174, 226, 0.13);
+    width: 80%;
+    margin: auto;
+}
+.divOne{
+    
+    margin: auto;
+    margin-bottom: 145px;
+    width: 80%;
+}
+.divTwo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.take{
+    max-width: 650px;
+    color: rgba(102, 102, 102, 1);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.ticket{
+    max-width: 509px;
+    font-size: 12px;
+    color: rgba(102, 102, 102, 1);
+
+}
+.last{
+    width: 80%;
+    margin: auto;
+}
+
+.sectionTwo{
+    background-color: rgba(196, 196, 196, 0.17);
+    padding-bottom: 85px;
+    padding-top: 46px;
+}
+.useCard{
+    color: rgba(102, 102, 102, 1);
+    font-size: 24px;
+    margin-left: 83px;
+    margin-bottom: 43px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.lable{
+    color: rgba(102, 102, 102, 1);
+    font-size: 12px;
+}
+.use{
+    width: 256px;
+    height: 64px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(46, 91, 207, 1);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 530px;
+    cursor: pointer;
+}
+.inputsContainer{
+   
+    width: 80%;
+    margin: auto;
+    .useCardInput{
+        width: 230px;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid;
+        outline: none;
+        padding-left: 10px;
+    }
+}
+.inputFlex{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 58px;
+}
+.lastInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: auto;
+    
+    
+    input{
+        max-width: 700px;
+        width: 100%;
+    }
+}
+.lastInput{
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    justify-content: space-between;
+    margin-left: 150px;
+    max-width: 850px;
+    input{
+        height: 52px;
+        padding-left: 10px;
+        border-color: rgba(102, 102, 102, 1);
+        outline: none;
+        border-radius: 5px;
+    }
+}
+.lastInputLable{
+    font-size: 12px;
+    color: rgba(102, 102, 102, 1);
+    min-width: 63.88px;
+}
+@media only screen and (max-width: 1735px){
+    .add{
+        display: none;
+    }
+    .shoping{
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 983px){
+    .use{
+        margin-left: 455px;
+    }
+}
+@media only screen and (max-width: 890px){
+    .use{
+        margin-left: 400px;
+    }
+}
+@media only screen and (max-width: 820px){
+    .use{
+        margin-left: 340px;
+    }
+}
+@media only screen and (max-width: 745px){
+    .use{
+        margin-left: 145px;
+    }
+}
+@media only screen and (max-width: 620px){
+    .use{
+        margin: 0;
+    }
+    .inputFlex{
+        flex-direction: column;
+    }
+    .inputsContainer{
+        text-align: center;
+        
+    }
+    .useCard{
+        margin-left: 0;
+    }
+    .take{
+        font-size: 19px;
+    }
+    .lastInput{
+        margin-left: 0;
+        flex-direction: column;
+    }
+}
+
