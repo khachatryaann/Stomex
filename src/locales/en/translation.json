@@ -7,7 +7,12 @@
     "thatsall":"That's all:",
     "shipping":"Shipping:",
     "discount":"Discount:",
-    
+
+    "manufacturer":"Manufacturer`",
+    "seller":"Seller`",
+    "availability":"Availability`",
+     "available":" Available",
+     "count" :"Quantity",
     
 
     "pages": [
@@ -38,11 +43,13 @@
     "giftcard":"Use a gift card",
     "giftcardcode":"Enter gift card code,",
     "use":"USE",
+    "Addproducts":"Add products using",
 
     "shippingaddress":"Shipping address",
     "city":"City",
     "addres":"Address",
     "postalcode":"Postal code",
+
     
 
     "dentist":"Dentist",
@@ -147,7 +154,30 @@
 ],
 "footerFour":[
   {"name":"StomEx © 2021 Dental Delivery System"}
-]
+],
+
+  "auth": {
+    "welcome": "Welcome",
+    "signIn": "Sign In",
+    "register": "Register",
+    "welcomeBack": "Welcome back! Please sign in to your account",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signingIn": "Signing In...",
+    "createAccount": "Create a new account to get started",
+    "name": "Name",
+    "namePlaceholder": "John Doe",
+    "confirmPassword": "Confirm Password",
+    "agreeTerms": "I agree to the Terms and Privacy Policy",
+    "creatingAccount": "Creating Account...",
+    "passwordsDontMatch": "Passwords don't match",
+    "enterEmailFirst": "Please enter your email first",
+    "passwordResetSent": "Password reset email sent! Check your inbox.",
+    "profile": "Profile"
+  }
 
 
 }

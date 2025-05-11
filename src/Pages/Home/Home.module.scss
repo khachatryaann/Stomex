@@ -1,0 +1,194 @@
+.containerTree {
+    width: 95%;
+    margin: auto;
+}
+.containerJobs{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+   
+    
+}
+.sectionTwo{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+
+.information {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.shopsCont{
+    width: 95%;
+    margin: auto;
+    max-width: 1310px;
+    width: 80%;
+    margin: auto;
+}
+.cardsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+
+.cardsDiv{
+    display: flex;
+    gap: 23px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.save{
+   height: 48px;
+   width: 20%;
+   background-color: #2E5BCF;
+   border: none;
+   cursor: pointer;
+}
+
+.news{
+    color: #666666;
+    font-size: 30px;
+    margin-bottom: 66px;
+    margin-top: 100px;
+    font-weight: 600;
+
+}
+.shops{
+    font-weight: 600;
+    font-size: 30px;
+    color: #1F1F1F;
+}
+
+.shopItem{
+    padding-top: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.shoplogo{
+    width: 130px;
+}
+.jobsCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    gap: 90px;
+}
+.jobsInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jobName{
+    color: rgba(46, 91, 207, 1);
+    font-size: 32px;
+}
+.hayt{
+    color: rgba(196, 196, 196, 1);
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+
+
+@media only screen and (max-width: 400px){
+    .hayt{
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+    
+
+}
+@media only screen and (max-width: 700px){
+    .information a{
+        display: none;
+    }
+};
+@media only screen and (max-width: 800px){
+    .maping{
+        display: none;
+    }
+};
+@media only screen and (max-width: 1054px){
+    .information a {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 404px){
+    .hayt{
+        font-size: 25px;
+    }
+
+}
+@media only screen and (max-width: 344px){
+    .hayt{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1800px){
+    .jobsInfo img{
+        width: 230px;
+    }
+    .jobName{
+        font-size: 30px;
+    }
+
+}
+@media only screen and (max-width: 1700px){
+    .jobsInfo img{
+        width: 200px;
+    }
+    .jobName{
+        font-size: 28px;
+    }
+
+
+}
+@media only screen and (max-width: 1500px){
+    .jobsInfo img{
+        width: 180px;
+    }
+    .jobName{
+        font-size: 25px;
+    }
+
+
+}
+@media only screen and (max-width: 1400px){
+    .jobsInfo img{
+        width: 160px;
+    }
+    .jobName{
+        font-size: 23px;
+    }
+
+
+}
+@media only screen and (max-width: 1090px){
+    .jobsCard{
+        gap: 50px;
+    }
+}
+@media only screen and (max-width: 920px){
+    .jobsCard{
+        gap: 30px;
+    }
+}
+
+
+
